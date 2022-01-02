@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes} from 'react-router-dom';
 import MainTemplate from '../templates/MainTemplate';
 import HomePage from './HomePage';
 import ServicesHub from './ServicesHub';
+import AboutMe from './AboutMe';
 
 function Root({ children }) {
 	return (
@@ -13,6 +14,8 @@ function Root({ children }) {
 					<Routes>
 						<Route path='/' element={<HomePage />} />
 						<Route path="uslugi/:id" element={<ServicesHub />} />
+						<Route path="/o_nas" element={<AboutMe />} />
+
 					</Routes>
 				</BaseTemplate>
 			</MainTemplate> 

@@ -11,6 +11,7 @@ const StyledWrapperOuter = styled.div`
 	z-index: 999;
 	background-color: white;
 	box-shadow: 0 0 6px rgb(39 48 57 / 7%);
+border: 1px solid #27303914;
 	position: fixed;
 
 `;

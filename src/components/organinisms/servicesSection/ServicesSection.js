@@ -6,8 +6,11 @@ import SectionHeader from '../../molecules/SectionHeader.js';
 import ServicesGrid from './ServicesGrid.js';
 
 const StyledWrapper=styled.div`
-margin-top: 40px;
+margin-top: 100px;
 height: auto;
+@media (max-width:700px){
+    margin-top:40px;
+}
 `;
 
 const aboutServices="Witaj! Zapraszam do zapoznania się z listą zabiegów jakie wykonuję w moim salonie."

@@ -6,8 +6,10 @@ import {theme} from '../../themes/ProjectTheme.js';
 const StyledGridItemWrapper=styled.div`
 box-shadow:${theme.boxShadow};
 height: 400px;
-border: 1px solid #27303914;
+border: 1px solid ${theme.themeColor};
+
 border-radius: 4px;
+padding: 15px;
 @media (max-width:700px){
     height: 250px;
 }
@@ -20,6 +22,8 @@ background-size: cover;
 width: 100%;
 height: 100%;
 position: relative;
+border-radius: 4px;
+
 &:after{
     content: "";
     width: 100%;
@@ -28,9 +32,7 @@ position: relative;
     top: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.349);
-border-radius: 4px;
-
-
+    border-radius: 4px;
 }
 
 `;

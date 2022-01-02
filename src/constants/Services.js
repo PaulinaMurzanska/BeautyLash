@@ -1,5 +1,5 @@
 import lifting from "../assets/images/lashes/lifting-rzęs-3.jpg" ;
-import laminating from '../assets/images/lashes/laminacja-brwi.jpg';
+import laminating from '../assets/images/lashes/eyebrow_laminating.jpg';
 import henna from "../assets/images/lashes/henna-pudrowa.jpg";
 import lashes3D from '../assets/images/lashes/3D.jpg';
 import lashes2D from '../assets/images/lashes/2D.jpg';

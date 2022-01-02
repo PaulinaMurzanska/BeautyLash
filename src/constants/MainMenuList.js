@@ -18,14 +18,14 @@ export const mainMenuList=[
         
     },
     {
-        name:"o nas",
+        name:"o mnie",
         path:"/o_nas",
         id:"about",
         
     },
     {
         name:"kontakt",
-        path:"/kontakt",
+        path:"/#kontakt",
         id:"contact",
         
     },

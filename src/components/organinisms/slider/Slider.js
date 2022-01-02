@@ -3,16 +3,18 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a lo
 import Carousel from 'react-bootstrap/Carousel';
 import "../../../text.css"
 
+
 const Slider = ({imagesList}) => {
 
 
     return (
-		<Carousel fade>
+	
+		<Carousel fade style={{marginTop:"40px"}}>
 			{imagesList.map((item, index) => (
 				<Carousel.Item
 				
 					style={{
-						height:'100vh',
+						height:`${window.screen.width> "700"? "80vh":"300px"}`,
 						backgroundImage: `url(${item})`,
 						backgroundSize: 'cover',
 						backgroundPosition: 'center',
