@@ -16,13 +16,16 @@ width: 100%;
 
     }
 `;
+
 const StyledTablehead=styled.thead`
 background-color: ${theme.themeColor};
 `;
+
 const StyledTableheadItem=styled.th`
-font-size: 2rem;
+font-size: 1.5rem;
 font-weight: normal;
 padding:10px;
+text-transform: uppercase;
 `;
 
 const PricelistTable = (

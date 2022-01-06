@@ -1,15 +1,13 @@
 import React from 'react';
-import styled from 'styled-components';
 import PricelistTable from '../components/molecules/pricelistTable/PricelistTable';
-import ServicesTable from '../components/molecules/serviceTable/ServicesTable';
-import { multiServices } from '../constants/ServicesDetails';
 import Container from "../components/atoms/containers/Container.js"
+import SectionHeader from '../components/molecules/SectionHeader';
 
 const Pricelist = () => {
     return (
         <Container>
+            <SectionHeader title="Poglądowy cennik usług"/>
             <PricelistTable/>
-            
         </Container>
     )
 }

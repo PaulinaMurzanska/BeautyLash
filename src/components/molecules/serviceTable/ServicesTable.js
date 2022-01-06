@@ -11,6 +11,18 @@ height: auto;
 
     }
 `;
+const StyledStarInfo = styled.div`
+	font-size: 1.2rem;
+	letter-spacing: 1px;
+	line-height: 1.8rem;
+	text-align: center;
+    @media (max-width:700px){
+        margin-top: 10px;
+	font-size: 1rem;
+
+    }
+
+`;
 
 
 const ServicesTable = ({details}) => {
@@ -35,6 +47,11 @@ const ServicesTable = ({details}) => {
                   </tr>
                 </tbody>
             </table>
+            <StyledStarInfo>
+					* Ceny usług i czas ich wykonania mają charakter poglądowy i w 
+                    rzeczywistości mogą różnić się od cen podanych w cenniku ze
+					względu na indywidualny charakter zabiegu.
+				</StyledStarInfo>
             
         </StyledWrapper>
     )

@@ -14,7 +14,7 @@ const Slider = ({imagesList}) => {
 				<Carousel.Item
 				
 					style={{
-						height:`${window.screen.width> "700"? "80vh":"300px"}`,
+						height:`${window.screen.width> "700"? "50vh":"300px"}`,
 						backgroundImage: `url(${item})`,
 						backgroundSize: 'cover',
 						backgroundPosition: 'center',

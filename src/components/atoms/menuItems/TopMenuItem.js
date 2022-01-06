@@ -37,11 +37,10 @@ const StyledNavLink = styled.a`
 	}
 `;
 
-const TopMenuItem = ({ item,path }) => {
+const TopMenuItem = ({ item,path,handleMenuItem }) => {
 	return (
-		<StyledNavLink href={path}>
+		<StyledNavLink onClick={handleMenuItem} href={path}>
 		<StyledMenuItem>
-		
 				{item}
 		</StyledMenuItem>
 		</StyledNavLink>

@@ -1,14 +1,14 @@
-import { createBrowserHistory } from 'history';
 import React from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
 import { theme } from '../../../themes/ProjectTheme';
 
 const StyledTableRow=styled.tr`
 height: 60px;
-background-color:rgb(248, 245, 245);
+background-color: white;
+
 &:nth-of-type(2n){
-    background-color: white;
+    background-color:rgb(248, 245, 245);
 }
 &:hover{
     transform: scale(1.01);
@@ -37,7 +37,6 @@ const PricelistItem = ({name, price, id}) => {
 
     
  const handleClick = ()=>{
-     console.log("kliknieto");
      history(`/uslugi/:${id}`);
  }
 

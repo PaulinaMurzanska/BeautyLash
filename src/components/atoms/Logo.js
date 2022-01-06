@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import logo from "../../assets/images/logo/logolashes.png"
+import logo from "../../assets/images/logo/logoBL.png"
 
 const StyledLogoWrapper =styled.div`
 width: 15%;
@@ -11,8 +11,8 @@ left: 0;
 
 `;
 const StyledLogoBox =styled.div`
-width: 50px;
-height: 50px;
+width: 60px;
+height: 55px;
 background-image: url(${logo});
 background-position: center;
 background-size: cover;

@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Container from '../../atoms/containers/Container';
-import logo from '../../../assets/images/logo/logolashes.png';
+import logo from '../../../assets/images/logo/logoBL.png';
 import { theme } from '../../../themes/ProjectTheme';
 import { GiVibratingSmartphone } from 'react-icons/gi';
 import { SiMaildotru } from 'react-icons/si';
@@ -100,11 +100,11 @@ const StyledContactLink = styled.a`
 `;
 const Footer = () => {
 	return (
-		<StyledWrapperOuter id='kontakt'>
+		<StyledWrapperOuter >
 			<Container>
 				<StyledWrapperInner>
 					<StyledFooterContentBox>
-						<img src={logo} alt='logo' />
+						<img src={logo} alt='logo' style={{width:"280px", height:"250px"}}/>
 					</StyledFooterContentBox>
 					<StyledFooterContentBox>
 						<FooterAbout />
@@ -114,7 +114,7 @@ const Footer = () => {
 						<PhoneBtn />
 					</StyledFooterContentBox>
 				</StyledWrapperInner>
-				<StyledWrapperContacts>
+				<StyledWrapperContacts id='kontakt'>
 					<StyledContactBox>
 						<FiHome style={iconStyles} />
 						ul.Bukowa 4 | Twardogóra

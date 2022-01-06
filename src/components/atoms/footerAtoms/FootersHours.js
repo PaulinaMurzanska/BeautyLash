@@ -17,9 +17,9 @@ const FootersHours = () => {
 		<>
 			<StyledAbout>Godziny pracy</StyledAbout>
 			<StyledAboutText>
-				Godziny wykonania zabiegu ustalam z każdą klientką
-				indywidualnie, ze względu na zróżnicowany czas trwania
-				poszczególnych usług. Aby umówić się na zabieg, zadzwoń, a na
+				Godziny wykonania zabiegu ze względu na zróżnicowany czas trwania
+				poszczególnych usług, ustalam z każdą klientką
+				indywidualnie. Aby umówić się na zabieg, zadzwoń, a na
 				pewno uda nam się ustalić dogodny dla Ciebie termin.
 			</StyledAboutText>
 		</>

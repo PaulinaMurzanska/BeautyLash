@@ -31,7 +31,7 @@ border-radius: 4px;
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.349);
+    background-color: rgba(0, 0, 0, 0.2);
     border-radius: 4px;
 }
 

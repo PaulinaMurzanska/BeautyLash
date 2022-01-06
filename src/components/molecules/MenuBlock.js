@@ -65,6 +65,10 @@ const StyledCrossWrapper = styled.div`
 const MenuBlock = () => {
 	const [menuIsDropped, setMenuIsDropped] = useState(false);
 
+	const handleMenuItem =()=>{
+		setMenuIsDropped(false)
+	};
+
 	return (
 		<StyledWrapper>
 			<StyledlistWrapper
@@ -75,7 +79,7 @@ const MenuBlock = () => {
 						item={item.name}
 						key={item.name}
 						path={item.path}
-						onClick={() => setMenuIsDropped(false)}
+						handleMenuItem={handleMenuItem}
 					/>
 				))}
 			</StyledlistWrapper>

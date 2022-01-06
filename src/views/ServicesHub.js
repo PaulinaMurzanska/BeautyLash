@@ -1,15 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
 import { services } from '../constants/Services';
-import { theme } from '../themes/ProjectTheme';
 import Container from '../components/atoms/containers/Container.js';
-import StyledSectionTitle from '../components/atoms/StyledSectionTitle';
 import { useParams } from 'react-router-dom';
 import ServicePhotoGallery from '../components/molecules/servicePhotoGallery/ServicePhotoGallery';
 import ServiceDescription from '../components/molecules/servicesDescription/ServiceDescription';
 import ServicesTable from '../components/molecules/serviceTable/ServicesTable';
 import SectionHeader from '../components/molecules/SectionHeader';
-import { multi } from '../constants/ServicesDetails';
 
 const StyledWrapper = styled.div`
 	width: 100%;

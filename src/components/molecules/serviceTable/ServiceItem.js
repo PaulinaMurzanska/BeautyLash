@@ -44,18 +44,7 @@ font-weight: normal;
 
     }
 `;
-const StyledStarInfo = styled.div`
-	font-size: 1.2rem;
-	letter-spacing: 1px;
-	line-height: 1.8rem;
-	text-align: center;
-    @media (max-width:700px){
-        margin-top: 10px;
-	font-size: 1rem;
 
-    }
-
-`;
 
 const ServiceItem = ({serviceName, price, duration}) => {
     return (
@@ -65,10 +54,7 @@ const ServiceItem = ({serviceName, price, duration}) => {
                 <StyledServiceInfo>Cena {price} *</StyledServiceInfo>
                 <StyledServiceInfo>Czas {duration} *</StyledServiceInfo>
             </StyledServiceDetailsBox>
-            <StyledStarInfo>
-					* Cena usługi i czas jej wykonania mogą różnić się ze
-					względu na indywidualny charakter zabiegu
-				</StyledStarInfo>
+          
             
         </StyledWrapper>
     )
