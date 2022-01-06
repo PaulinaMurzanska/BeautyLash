@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import Footer from '../components/organinisms/footer/Footer';
 
 const StyledWrapper=styled.div`
-padding-top: 100px;
+padding-top: 80px;
 position: relative;
 
 `;

@@ -23,7 +23,6 @@ const ServicesSection = ({text}) => {
                 <IntroText text={aboutServices}/>
                 <ServicesGrid/>
             </Container>
-            
         </StyledWrapper>
     )
 }

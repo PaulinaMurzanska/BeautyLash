@@ -1,7 +1,6 @@
-import { height } from 'dom-helpers';
 import React from 'react';
 import styled from 'styled-components';
-import logo from "../../assets/images/lashes/logolashes.png"
+import logo from "../../assets/images/logo/logolashes.png"
 
 const StyledLogoWrapper =styled.div`
 width: 15%;

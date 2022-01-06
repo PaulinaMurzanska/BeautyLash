@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Container from '../components/atoms/containers/Container';
 import { theme } from '../themes/ProjectTheme';
-import justyna from "../assets//images/lashes/justyna.jpg";
+import justyna from "../assets//images/justyna/justyna_profile.jpg";
 
 const StyledAboutText = styled.p`
 	font-size: 1.5rem;
@@ -11,6 +11,13 @@ const StyledAboutText = styled.p`
 const StyledWrapper = styled.div`
 display: flex;
 margin-top:50px;
+flex-direction: row;
+flex-wrap:wrap;
+@media (max-width:700px){
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top:15px;
+}
 `;
 const StyledPhotoWrap =styled.div`
 width: 250px;
@@ -22,10 +29,19 @@ img{
     width: 100%;
     height: 100%;
 }
+@media (max-width:700px){
+    width: 300px;
+    height: 300px;
+}
 `;
+
 const StyledAbout= styled.div`
 padding: 0 30px;
 width: 70%;
+@media (max-width:700px){
+    width: 100%;
+    
+}
 `;
 
 const AboutMe = () => {

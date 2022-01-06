@@ -1,15 +1,15 @@
 import React from 'react';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
 import Carousel from 'react-bootstrap/Carousel';
-import "../../../text.css"
 
 
 const Slider = ({imagesList}) => {
 
 
+
     return (
 	
-		<Carousel fade style={{marginTop:"40px"}}>
+		<Carousel fade style={{marginTop:`${window.screen.width> "700"? "40px":"10px"}`}}>
 			{imagesList.map((item, index) => (
 				<Carousel.Item
 				

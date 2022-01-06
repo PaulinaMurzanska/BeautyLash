@@ -1,17 +1,19 @@
 import React from 'react';
 import styled from 'styled-components';
 import Container from '../../atoms/containers/Container';
-import logo from '../../../assets/images/lashes/logolashes.png';
+import logo from '../../../assets/images/logo/logolashes.png';
 import { theme } from '../../../themes/ProjectTheme';
-import { FiPhoneCall } from 'react-icons/fi';
 import { GiVibratingSmartphone } from 'react-icons/gi';
 import { SiMaildotru } from 'react-icons/si';
 import { FiHome } from 'react-icons/fi';
+import FooterAbout from '../../atoms/footerAtoms/FooterAbout';
+import FootersHours from '../../atoms/footerAtoms/FootersHours';
+import PhoneBtn from '../../atoms/footerAtoms/PhoneBtn';
 
 const StyledWrapperOuter = styled.div`
 	width: 100%;
 	border-top: 1px solid #27303914;
-	margin-top: 80px; ;
+	margin-top: 40px;
 `;
 
 const StyledWrapperInner = styled.div`
@@ -46,40 +48,10 @@ const StyledFooterContentBox = styled.div`
 	@media (max-width: 700px) {
 		width: 100%;
 		margin-bottom: 40px;
+		padding: 15px;
 	}
 `;
 
-const StyledAbout = styled.h3`
-	font-size: 2.5rem;
-	border-bottom: 1px solid ${theme.themeColor};
-	margin-bottom: 15px;
-`;
-const StyledAboutText = styled.p`
-	font-size: 1.5rem;
-	margin-bottom: 10px;
-`;
-const StyledPhoneBox = styled.div`
-	width: 80px;
-	height: 80px;
-	border-radius: 50%;
-	background-color: ${theme.themeColor};
-	color: white;
-	font-size: 40px;
-	position: relative;
-	align-self: flex-end;
-	margin-top: 25px;
-	margin-right: 50px;
-	cursor: pointer;
-	@media (max-width: 700px) {
-		margin-right: 100px;
-	}
-`;
-const iconStyle = {
-	position: 'absolute',
-	top: '55%',
-	left: '45%',
-	transform: 'translate(-50% ,-50%)',
-};
 const StyledCopyrights = styled.div`
 	width: 100%;
 	height: 50px;
@@ -109,6 +81,7 @@ const StyledContactBox = styled.div`
 		width: 80%;
 		margin-left: 35px;
 		margin-bottom: 20px;
+		justify-content: left;
 	}
 `;
 const iconStyles = {
@@ -134,35 +107,11 @@ const Footer = () => {
 						<img src={logo} alt='logo' />
 					</StyledFooterContentBox>
 					<StyledFooterContentBox>
-						<StyledAbout>O mnie</StyledAbout>
-						<StyledAboutText>
-							Stylizacją brwi i rzęs zajmuję się od ponad 3 lat.
-							Wykonując zabiegi każdej klientce oferuję
-							indywidualne podejście dopasowane do jej
-							indywidualnych potrzeb.
-						</StyledAboutText>
-						<StyledAboutText>
-							W swojej pracy bazuję na najwyższej jakości
-							produktach, zapewniając moim klienkom bezpieczeństwo
-							i trwałość wykonanych zabiegów.
-						</StyledAboutText>
-						<StyledAboutText>
-							Zapraszam do obejrzenia galerii zdjęć wykonanych
-							przez moje studio stylizacji.
-						</StyledAboutText>
+						<FooterAbout />
 					</StyledFooterContentBox>
 					<StyledFooterContentBox className='hours'>
-						<StyledAbout>Godziny pracy</StyledAbout>
-						<StyledAboutText>
-							Godziny wykonania zabiegu ustalam z każdą klientką
-							indywidualnie, ze względu na zróżnicowany czas
-							trwania poszczególnych usług. Aby umówić się na
-							zabieg, zadzwoń, a na pewno uda nam się ustalić
-							dogodny dla Ciebie termin.
-						</StyledAboutText>
-						<StyledPhoneBox>
-							<FiPhoneCall style={iconStyle} />
-						</StyledPhoneBox>
+						<FootersHours />
+						<PhoneBtn />
 					</StyledFooterContentBox>
 				</StyledWrapperInner>
 				<StyledWrapperContacts>

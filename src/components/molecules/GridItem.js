@@ -61,7 +61,7 @@ z-index: 5;
 }
 `;
 
-const StyledLink = styled(Link)`
+const StyledLink = styled.a`
  text-decoration: none;
  cursor: pointer;
 
@@ -95,7 +95,7 @@ const GridItem = ({image, serviceName, excerpt, id}) => {
         <StyledGridItemWrapper>
             <StyledPhotoWrap image={image}>
             <StyledTextOverlay>
-            <StyledLink to={customPath}>
+            <StyledLink href={customPath}>
             <StyledSectionTitle>{serviceName}</StyledSectionTitle>
             </StyledLink>
                 <StyledExcerpt>{excerpt}</StyledExcerpt>

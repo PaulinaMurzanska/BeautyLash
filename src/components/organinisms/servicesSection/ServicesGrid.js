@@ -11,7 +11,6 @@ grid-gap: 30px;
 @media (max-width: 700px){
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
 
-
 }
 `;
 
@@ -21,7 +20,7 @@ const ServicesGrid = () => {
         <StyledWrapper>
 {services.map(item=>(
     <GridItem 
-    image={item.servicePhoto}
+    image={item.servicePhoto[0]}
     serviceName={item.serviceName}
     excerpt={item.serviceExcerpt}
     id={item.id}

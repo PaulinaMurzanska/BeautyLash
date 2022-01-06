@@ -1,10 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import Container from '../../atoms/containers/Container';
-import StyledSectionTitle from '../../atoms/StyledSectionTitle';
-import SectionHeader from '../../molecules/SectionHeader';
 import { theme } from '../../../themes/ProjectTheme';
-import voucher from '../../../assets/images/lashes/voucher.jpg'
+import voucher from '../../../assets/images/voucher/voucher.jpg'
 
 const StyledWrapper=styled.div`
 margin-top: 80px;

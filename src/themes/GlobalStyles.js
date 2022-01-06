@@ -7,6 +7,7 @@ const GlobalStyles = createGlobalStyle`
     src: url(${'../fonts/DINPro-Regular_13937.ttf'});
 }
 
+
 *, *::before, *::after{
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
