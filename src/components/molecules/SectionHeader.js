@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { theme } from '../../themes/ProjectTheme';
 import { AiFillHeart } from 'react-icons/ai';
 import StyledSectionTitle from '../atoms/StyledSectionTitle';
+
 const StyledWrapper = styled.div`
 	display: block;
 	text-align: center;

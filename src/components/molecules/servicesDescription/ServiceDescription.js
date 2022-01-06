@@ -12,14 +12,10 @@ margin: 40px auto;
 `;
 const StyledParagraph = styled.p`
 	font-size: 1.6rem;
-	letter-spacing: 1px;
 	line-height: 2rem;
 	margin-bottom: 15px;
     @media (max-width: 700px) {
         font-size: 1.4rem;
-	line-height: 1.8rem;
-
-
 	}
 `;
 const ServiceDescription = ({descriptions}) => {

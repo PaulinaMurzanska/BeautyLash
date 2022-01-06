@@ -19,7 +19,7 @@ const ServicesSection = ({text}) => {
     return (
         <StyledWrapper id="uslugi">
             <Container>
-                <SectionHeader title="Nasze usługi"/>
+                <SectionHeader title="Oferowane usługi"/>
                 <IntroText text={aboutServices}/>
                 <ServicesGrid/>
             </Container>
