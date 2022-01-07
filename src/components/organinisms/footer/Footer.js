@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Container from '../../atoms/containers/Container';
-import logo from '../../../assets/images/logo/logoBL.png';
+import logo from '../../../assets/images/logo/logoLashesNew.png';
 import { theme } from '../../../themes/ProjectTheme';
 import { GiVibratingSmartphone } from 'react-icons/gi';
 import { SiMaildotru } from 'react-icons/si';
@@ -9,6 +9,7 @@ import { FiHome } from 'react-icons/fi';
 import FooterAbout from '../../atoms/footerAtoms/FooterAbout';
 import FootersHours from '../../atoms/footerAtoms/FootersHours';
 import PhoneBtn from '../../atoms/footerAtoms/PhoneBtn';
+import Logotest from '../../../views/Logotest';
 
 const StyledWrapperOuter = styled.div`
 	width: 100%;
@@ -36,6 +37,9 @@ const StyledFooterContentBox = styled.div`
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		@media (max-width:700px){
+			padding:0;
+		}
 	}
 	img {
 		width: auto;
@@ -45,10 +49,12 @@ const StyledFooterContentBox = styled.div`
 		display: flex;
 		flex-direction: column;
 	}
+
 	@media (max-width: 700px) {
 		width: 100%;
 		margin-bottom: 40px;
 		padding: 15px;
+		
 	}
 `;
 
@@ -67,6 +73,7 @@ const StyledWrapperContacts = styled.div`
 	flex-direction: row;
 	justify-content: space-between;
 	margin-bottom: 20px;
+
 	@media (max-width: 700px) {
 		flex-direction: column;
 	}
@@ -104,7 +111,7 @@ const Footer = () => {
 			<Container>
 				<StyledWrapperInner>
 					<StyledFooterContentBox>
-						<img src={logo} alt='logo' style={{width:"280px", height:"250px"}}/>
+						<Logotest ratio="3"/>
 					</StyledFooterContentBox>
 					<StyledFooterContentBox>
 						<FooterAbout />

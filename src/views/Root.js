@@ -9,6 +9,7 @@ import Gallery from './Gallery';
 import Pricelist from './Pricelist';
 import PrivacyPolicy from './Privacy/PrivacyPolicy';
 import CookieConsentCustom from './Privacy/CookieConsent';
+import Logotest from './Logotest';
 
 function Root({ children }) {
 	const consent = () => {
@@ -44,6 +45,7 @@ function Root({ children }) {
 								path='/polityka_prywatnosci'
 								element={<PrivacyPolicy />}
 							/>
+							<Route path='/logo' element={<Logotest />} />
 						</Routes>
 					</BaseTemplate>
 				</MainTemplate>

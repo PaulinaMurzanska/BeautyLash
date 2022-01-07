@@ -1,11 +1,15 @@
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&family=Inter:wght@100;200;300;400;500;600;700;800&family=PT+Mono&family=Poiret+One&family=Readex+Pro:wght@200;300;400;500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&family=Inter:wght@100;200;300;400;500;600;700;800&family=PT+Mono&family=Poiret+One&family=Readex+Pro:wght@200;300;400;500&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Island+Moments&family=The+Nautigal:wght@400;700&display=swap');
-@font-face {
+/* @font-face {
     font-family:'DINPro-Regular', sans-serif ;
     src: url(${'../fonts/DINPro-Regular_13937.ttf'});
+} */
+@font-face {
+    font-family:'The Nautigal' cursive;
+    src: url(${'../fonts/TheNautiGal.ttf'});
 }
 
 
