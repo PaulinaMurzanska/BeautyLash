@@ -64,7 +64,7 @@ const AboutMe = () => {
 						</StyledAboutText>
 						<StyledAboutText>
 							{' '}
-							Mam na imie Justyna, stylizacją brwi i rzęs zajmuję
+							Mam na imię Justyna, stylizacją brwi i rzęs zajmuję
 							się profesjonalnie od 5 lat, ale od zawsze
 							interesowałam się tematami związanymi z wizażem i
 							stylizacją.

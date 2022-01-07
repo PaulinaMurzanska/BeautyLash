@@ -4,13 +4,19 @@ import Root from './views/Root';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
 
-ReactDOM.render(
 
+
+ReactDOM.render(
 
   <React.StrictMode>
     <Root />
   </React.StrictMode>,
+
+ 
   document.getElementById('root')
+
+ 
+
 );
 
 // If you want to start measuring performance in your app, pass a function

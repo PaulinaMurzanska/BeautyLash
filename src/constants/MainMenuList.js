@@ -19,7 +19,7 @@ export const mainMenuList=[
     },
     {
         name:"o mnie",
-        path:"/o_nas",
+        path:"/o_mnie",
         id:"about",
         
     },
