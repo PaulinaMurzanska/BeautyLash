@@ -6,19 +6,23 @@ import Container from '../../atoms/containers/Container';
 
 const StyledSliderOverlay = styled.div`
 	width: 100%;
+	height: auto;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	z-index: 10;
+	z-index: 11;
 	text-align: left;
 	mix-blend-mode: difference;
+
 `;
+
 const StyledSliderWrapper = styled.div`
 	position: relative;
 `;
-const StyledP = styled.p`
+const StyledP = styled.h1`
 	font-size: 6rem;
+
 	@media (max-width: 700px) {
 		font-size: 4rem;
 	}
@@ -39,7 +43,7 @@ const Slider = ({ imagesList }) => {
 					<Carousel.Item
 						style={{
 							height: `${
-								window.screen.width > '700' ? '50vh' : '300px'
+								window.screen.width > '700' ? '70vh' : '300px'
 							}`,
 							backgroundImage: `url(${item})`,
 							backgroundSize: 'cover',
@@ -51,7 +55,7 @@ const Slider = ({ imagesList }) => {
 				))}
 			</Carousel>
 			<StyledSliderOverlay>
-				<Container>
+				<Container >
 					<StyledP> Beauty Lash </StyledP>
 					<StyledP style={{ marginLeft: '50px' }}> by </StyledP>
 					<StyledP> Justyna Procajło</StyledP>

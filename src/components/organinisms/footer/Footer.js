@@ -10,6 +10,7 @@ import FooterAbout from '../../atoms/footerAtoms/FooterAbout';
 import FootersHours from '../../atoms/footerAtoms/FootersHours';
 import PhoneBtn from '../../atoms/footerAtoms/PhoneBtn';
 import Logotest from '../../../views/Logotest';
+import{RiMessengerLine} from "react-icons/ri";
 
 const StyledWrapperOuter = styled.div`
 	width: 100%;
@@ -124,18 +125,25 @@ const Footer = () => {
 				<StyledWrapperContacts id='kontakt'>
 					<StyledContactBox>
 						<FiHome style={iconStyles} />
-						ul.Bukowa 4 | Twardogóra
+						<StyledContactLink 
+						href="https://www.google.com/maps/place/Bukowa+3,+56-416+Twardog%C3%B3ra/@51.3714914,17.4648869,
+						17z/data=!3m1!4b1!4m5!3m4!1s0x470fff72ef848c8b:0x58e691ce9fe5f6ed!8m2!3d51.3714881!4d17.4670756"
+						target="_blank"
+						>
+						ul.Bukowa 3 | 56-416 Twardogóra
+						</StyledContactLink>
+						
 					</StyledContactBox>
 					<StyledContactBox>
 						<GiVibratingSmartphone style={iconStyles} />
-						<StyledContactLink href='tel:0048555666454'>
-							555 333 554
+						<StyledContactLink href='tel:0048665653651' target="_blank">
+						665 653 651
 						</StyledContactLink>
 					</StyledContactBox>
 					<StyledContactBox>
-						<SiMaildotru style={iconStyles} />
-						<StyledContactLink href='mailto:lashes@gmail.com'>
-							lashes@gmail.com
+						<RiMessengerLine style={iconStyles} />
+						<StyledContactLink href='https://www.facebook.com/BeautyLash.JustynaProcajlo' target="_blank">
+							@BeautyLashByJustynaProcajło
 						</StyledContactLink>
 					</StyledContactBox>
 				</StyledWrapperContacts>

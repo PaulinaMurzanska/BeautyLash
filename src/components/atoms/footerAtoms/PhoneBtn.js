@@ -43,7 +43,7 @@ const iconStyle = {
 const PhoneBtn = () => {
     return (
         <StyledPhoneBox>
-        <StyledContactLink href='tel:0048555666454'>
+        <StyledContactLink href='tel:004866553651'>
             <FiPhoneCall style={iconStyle} />
         </StyledContactLink>
     </StyledPhoneBox>

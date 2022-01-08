@@ -72,7 +72,7 @@ const AboutMe = () => {
 						<StyledAboutText>
 							{' '}
 							Swoje umiejętności zdobyłam kończąc eliatarny kurs
-							stylizacji TUTAJ TYTUŁ KURSU.
+							stylizacji i przedłużania rzęs.
 						</StyledAboutText>
 						<StyledAboutText>
 							{' '}

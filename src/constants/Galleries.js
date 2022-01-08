@@ -1,5 +1,6 @@
-import slider1 from "../assets/images/frontSliderGallery/coverPhotoEyeLook.jpg";
-import slider2 from "../assets/images/frontSliderGallery/lashes_and_tweezers.jpg";
+import slider2 from "../assets/images/frontSliderGallery/big-eye2-slider.png";
+import slider3 from "../assets/images/frontSliderGallery/big-eye-slider.png";
+import slider1 from "../assets/images/frontSliderGallery/tweezers-slider-front.png";
 import lifting1 from "../assets/images/lashesLifting/lash_lifting_1.jpg";
 import lifting2 from "../assets/images/lashesLifting/lash_lifting_2.jpg";
 import lifting3 from "../assets/images/lashesLifting/lash_lifting_3.jpg";
@@ -20,6 +21,7 @@ import salon2 from  '../assets/images/salon/salon1.jpg';
 export const sliderGallery =[
 `${slider1}`,
 `${slider2}`,
+`${slider3}`,
 ];
 
 export const eyelashLiftingGallery =[

@@ -1,22 +1,22 @@
 export const eyebrowServicesDetails=[
     {
         name:"Henna pudrowa",
-        duration:"0,5 h",
-        price:"40 zł",
+        duration:"1 h",
+        price:"-- zł",
         id:"stylizacja_brwi",
 
     },
     {
         name:"Laminacja brwi",
         duration:"1 h",
-        price:"150 zł",
+        price:"-- zł",
         id:"stylizacja_brwi",
 
     },
     {
         name:"Regulacja brwi",
         duration:"0.5 h",
-        price:"30 zł",
+        price:"-- zł",
         id:"stylizacja_brwi",
 
     },
@@ -24,32 +24,30 @@ export const eyebrowServicesDetails=[
 export const eyelashLiftingServicesDetails=[
     {
         name:"Lifting rzęs",
-        duration:"1,5 h",
-        price:"150 zł",
+        duration:"2 h",
+        price:"-- zł",
         id:"lifting_rzes",
-
     },
 
 ];
 export const eyelashExtensionServicesDetails=[
     {
         name:"Przedłużanie metodą 1:1",
-        duration:"1,5 h",
-        price:"150 zł",
+        duration:"2 h",
+        price:"-- zł",
         id:"przedluzanie_rzes",
 
     },
     {
         name:"Przedłużanie metodą 2D 2:1",
         duration:"2 h",
-        price:"250 zł",
         id:"przedluzanie_rzes",
-
+        price:"-- zł",
     },
     {
         name:"Przedłużanie metodą 3D 3:1",
         duration:"2 h",
-        price:"300 zł",
+        price:"-- zł",
         id:"przedluzanie_rzes",
 
     },
@@ -57,23 +55,24 @@ export const eyelashExtensionServicesDetails=[
 ];
 export const facialTreatmentServicesDetails=[
     {
-        name:"Dummy Name 1",
-        duration:"1,5 h",
-        price:"150 zł",
+        name:"Manualne oczyszczanie twarzy",
+        duration:"2 h",
+        price:"-- zł",
         id:"zabiegi_twarz",
 
     },
     {
-        name:"Dummy Name 2",
+        name:"Maseczka wygładzająca",
         duration:"2 h",
-        price:"250 zł",
+        price:"-- zł",
         id:"zabiegi_twarz",
 
     },
     {
-        name:"Dummy Name 3",
+        name:"Makijaż wieczorowy",
         duration:"2 h",
         id:"zabiegi_twarz",
+        price:"-- zł",
 
     },
 

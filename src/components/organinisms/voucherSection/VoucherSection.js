@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Container from '../../atoms/containers/Container';
 import { theme } from '../../../themes/ProjectTheme';
-import voucher from '../../../assets/images/voucher/voucher.jpg'
+import voucher from '../../../assets/images/voucher/voucher2.png'
 
 const StyledWrapper=styled.div`
 margin-top: 80px;
