@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Container from '../../atoms/containers/Container';
 import { theme } from '../../../themes/ProjectTheme';
-import voucher from '../../../assets/images/voucher/voucher2.png'
+import voucher from '../../../assets/images/voucher/voucherNewPhoto.jpg'
 
 const StyledWrapper=styled.div`
 margin-top: 80px;
@@ -21,9 +21,23 @@ background-position: center;
 background-size: cover;
 margin-top:20px;
 margin-bottom:80px;
+position: relative;
 @media (max-width:700px){
     height: 300px;
 }
+`;
+const StyledOverlay=styled.div`
+width: 50%;
+height: 30%;
+position:absolute;
+top:50%;
+left: 30%;
+transform: translate(-50% ,-50%);
+font-size: 5rem;
+display: flex;
+justify-content: center;
+align-items: center;
+mix-blend-mode: difference;
 `;
 
 const VoucherSection = () => {
@@ -31,7 +45,9 @@ const VoucherSection = () => {
         <Container>
         <StyledWrapper>
                 <StyledTitle>Kup Voucher na zabiegi</StyledTitle> 
-                <StyledPhotoWrapper/>
+                <StyledPhotoWrapper>
+                    <StyledOverlay>Kup Voucher Upominkowy</StyledOverlay>
+                </StyledPhotoWrapper>
         </StyledWrapper>
         </Container>
 

@@ -12,7 +12,7 @@ const ServicePhotoGallery = ({servicePhoto}) => {
             <Carousel.Item
             
                 style={{
-                    height:`${window.screen.width> "700"? "40vh":"250px"}`,
+                    height:`${window.screen.width> "700"? "60vh":"250px"}`,
                     backgroundImage: `url(${item})`,
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',

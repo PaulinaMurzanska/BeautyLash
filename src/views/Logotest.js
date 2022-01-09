@@ -63,8 +63,6 @@ const Logotest = ({ratio}) => {
                     <StyledP2 ratio={ratio}>Justyna Procajło</StyledP2>
                 </StyledLetters>
             </StyledFrame>
-  
-         
         </Container>
     )
 }
