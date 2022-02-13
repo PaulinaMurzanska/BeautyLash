@@ -3,6 +3,6 @@ Creation date is January 2022.
 Receipient of the website is Justyna Procajło.
 Project is created as a React Single Page App.
 Photos that are uploaded on the website come from Canva website, and have been purchased at 7.1.2022 by Paulina Murzańska.
-Photo Licence and server info is included in projects files, but marked as a .gitignore
+Photo Licence and server info is included in projects files, but marked as a .gitignore  = search for LicenceAndServer folder above src
 
 

@@ -22,6 +22,7 @@ background-size: cover;
 margin-top:20px;
 margin-bottom:80px;
 position: relative;
+
 @media (max-width:700px){
     height: 300px;
 }
@@ -39,14 +40,28 @@ justify-content: center;
 align-items: center;
 mix-blend-mode: difference;
 `;
+const StyledParagraph=styled.p`
+font-size: 2.5rem;
+letter-spacing: 1px;
+line-height: 2.5rem;
+width: 50%;
+position:absolute;
+top:50%;
+left: 30%;
+transform: translate(-50% ,-50%);
+
+
+`;
 
 const VoucherSection = () => {
     return (
         <Container>
         <StyledWrapper>
                 <StyledTitle>Kup Voucher na zabiegi</StyledTitle> 
+
                 <StyledPhotoWrapper>
-                    <StyledOverlay>Kup Voucher Upominkowy</StyledOverlay>
+                <StyledParagraph>Kup Voucher Upominkowy</StyledParagraph>
+                    <StyledOverlay/>
                 </StyledPhotoWrapper>
         </StyledWrapper>
         </Container>
